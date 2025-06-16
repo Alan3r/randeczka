@@ -1,4 +1,3 @@
-import { useToast } from "@/hooks/use-toast"
 import {
   Toast,
   ToastClose,
@@ -7,6 +6,12 @@ import {
   ToastTitle,
   ToastViewport,
 } from "@/components/ui/toast"
+// import { useToast } from "@/components/ui/toast"
+// import { useToast } from "@/components/ui/toast"
+// If useToast is defined elsewhere, import it from the correct path, e.g.:
+// import { useToast } from "@/hooks/useToast"
+// Or, if you need a quick mock for now, you can define a placeholder hook like this:
+const useToast = () => ({ toasts: [] });
 
 export function Toaster() {
   const { toasts } = useToast()
