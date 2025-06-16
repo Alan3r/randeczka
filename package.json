@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Alan3r.github.io/nowarandka",
+  "homepage": "https://Alan3r.github.io/bezpiecznerandki",
   "name": "bezpieczne-randki",
   "private": true,
   "version": "1.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build ",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview",
     "start": "vite preview"
